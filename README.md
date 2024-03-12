@@ -26,7 +26,7 @@ In this cell, we import the required libraries for data manipulation, visualizat
 - **sklearn.metrics**: The metrics module from scikit-learn includes various metrics to evaluate the performance of machine learning models. These metrics help assess the accuracy and generalization ability of regression models. Common metrics include mean squared error, mean absolute error, and R-squared.
 
 ## Cell 2: Loading of Data
-This line of code reads the diabetes dataset from a CSV file named 'insurance.csv' and stores it in a pandas DataFrame named 'loan data'. 
+This line of code reads the diabetes dataset from a CSV file named 'insurance.csv' and stores it in a pandas DataFrame named 'insurance_dataset'. 
 
 Pandas' `read_csv()` function is used to read the contents of the CSV file into a DataFrame. This function automatically detects the delimiter used in the file (usually a comma) and parses the data into rows and columns. The resulting DataFrame allows for easy manipulation and analysis of the dataset, making it a popular choice for working with structured data in Python.
 
